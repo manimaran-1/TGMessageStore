@@ -17,9 +17,6 @@ var Commands map[string]string = map[string]string{
 <b>Learn</b> how to use me 👉 /help to easily <b>share</b> content with anyone 👣 </i>
 `,
 	"ABOUT": `
-○ <b>Language</b>: <a href='https://go.dev'>GO</a>
-○ <b>Library</b>: <a href='https://github.com/PaulSonOfLars/gotgbot'>GoTgbot</a>
-○ <b>Support</b>: <a href='https://t.me/FractalProjects'>@Fractal</a>
 	`,
 
 	"HELP": `
@@ -29,10 +26,6 @@ var Commands map[string]string = map[string]string{
 <i>Here's a list of my available commands 👉</i>
 
 /start : Start the bot.
-/batch : Create a new message batch.
-/genlink : Create link for a single post.
-/about : Get some data about the bot.
-/help  : Display this help message.
 /privacy: Learn how this bot uses your data.
 `,
 
