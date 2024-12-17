@@ -14,17 +14,25 @@ import (
 var Commands map[string]string = map[string]string{
 	"START": `
 <i>👋 Hi <b>{mention}</b> I'm a bot that can create <b>links</b> to <b>store</b> your <b>files and messages</b> in a single click 🔗
-<b>Learn</b> how to use me 👉 to easily <b>share</b> content with anyone 👣 </i>
+<b>Learn</b> how to use me 👉 /help to easily <b>share</b> content with anyone 👣 </i>
 `,
 	"ABOUT": `
+○ <b>Language</b>: <a href='https://go.dev'>GO</a>
+○ <b>Library</b>: <a href='https://github.com/PaulSonOfLars/gotgbot'>GoTgbot</a>
+○ <b>Support</b>: <a href='https://t.me/FractalProjects'>@Fractal</a>
 	`,
 
 	"HELP": `
 <i>👋 Hey {mention} I'm a bot that can create <b>permanent</b> links to a single or a <b>batch</b> of messages.</i>
+<i><b>Add</b> me to your <b>channel</b> where you'll posting all the content before using me 😉</i>
 
 <i>Here's a list of my available commands 👉</i>
 
 /start : Start the bot.
+/batch : Create a new message batch.
+/genlink : Create link for a single post.
+/about : Get some data about the bot.
+/help  : Display this help message.
 /privacy: Learn how this bot uses your data.
 `,
 
