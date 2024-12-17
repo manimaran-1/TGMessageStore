@@ -6,7 +6,11 @@ package config
 
 import "github.com/PaulSonOfLars/gotgbot/v2"
 
-var Buttons map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot.InlineKeyboardButton
+var Buttons map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot.InlineKeyboardButton{
+	"START": {{aboutButton, helpButton}, {{Text: "ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ", Url: ""}}},
+	"ABOUT": {{homeButton, helpButton}, {{Text: "Source 🔗", Url: ""}}},
+	"HELP":  {{aboutButton, homeButton}},
+}
 
 // Single buttons used to build composite markups.
 var (
